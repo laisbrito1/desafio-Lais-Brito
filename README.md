@@ -3,7 +3,7 @@ O desafio foi muito enriquecedor para meu conhecimento como estudante de program
 de como é trabalhar com o desenvolvimento de uma aplicação, analisando meu código, resolvendo bugs, e fazendo commit
 diretamente do VisualCode através do GIT push.
 # MAIOR DIFICULDADE
-A parte do desafio que mais fiquei presa foi nas regras:
+As partes do desafio que mais fiquei presa foram nas regras:
 
 - "É possível pedir mais de um item extra sem precisar de mais de um principal." 
 - "Caso item extra seja informado num pedido que não tenha o respectivo item principal, apresentar mensagem "Item extra não pode ser pedido sem o principal".
