@@ -45,8 +45,8 @@ class CaixaDaLanchonete {
             case pedidos['queijo'] && !pedidos['sanduiche'] || pedidos['chantily']&& !pedidos['cafe']:
                 return "Item extra não pode ser pedido sem o principal";
             default:
-                total = Object.keys(pedidos).reduce((acc, tipo) => {
-                    return acc + this.cardapio[tipo].valor * pedidos[tipo];
+                total = Object.keys(pedidos).reduce((conta, tipo) => {
+                    return conta + this.cardapio[tipo].valor * pedidos[tipo];
                 }, 0);
         
                 if (total === 0) {
