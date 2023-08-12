@@ -19,6 +19,31 @@ class CaixaDaLanchonete {
             return "Não há itens no carrinho de compra!";
         }
 
+ 
+        //////////PAGAMENTO//////////////
+        let totalpagamento = 0;
+
+        switch (metodoDePagamento) {
+            case 'dinheiro':
+                const desconto = 5/100 * total;
+                totalpagamento = total - desconto;
+
+                break;
+        
+            case 'credito':
+                const acrescimo = 3/100 * total;
+                totalpagamento = total + acrescimo;
+                break;
+        
+            case 'debito':
+                totalpagamento = total
+                break;
+        
+            default:
+                return 'Forma de pagamento inválida!';
+        }
+        
+        return `R$ ${totalpagamento.toFixed(2).replace('.', ',')}`;
     }
 }
 
