@@ -19,7 +19,28 @@ class CaixaDaLanchonete {
             return "Não há itens no carrinho de compra!";
         }
 
- 
+        //// CALCULO DOS PEDIDOS//////
+        const pedidos = {};
+        let total = 0;
+
+        for (const item of itens) {
+            const [tipo, quantidade] = item.split(',');
+
+            if (!this.cardapio[tipo]) {
+                return "Item inválido!";
+            }
+
+            if (!pedidos[tipo]) {
+                pedidos[tipo] = 0;
+            }
+
+            pedidos[tipo] += parseInt(quantidade);
+
+            if (tipo !== 'chantily' && tipo !== 'queijo') {
+                total += this.cardapio[tipo].valor * parseInt(quantidade);
+            }
+        }
+       
         //////////PAGAMENTO//////////////
         let totalpagamento = 0;
 
