@@ -40,7 +40,21 @@ class CaixaDaLanchonete {
                 total += this.cardapio[tipo].valor * parseInt(quantidade);
             }
         }
-       
+        /////// REGRA EXTRAS////
+        switch (true) {    
+            case pedidos['queijo'] && !pedidos['sanduiche']:
+            case pedidos['chantily']&& !pedidos['cafe']:
+                return "Item extra não pode ser pedido sem o principal";
+            default:
+                total = Object.keys(pedidos).reduce((acc, tipo) => {
+                    return acc + this.cardapio[tipo].valor * pedidos[tipo];
+                }, 0);
+        
+                if (total === 0) {
+                    return "Quantidade inválida!";
+                }
+                break;
+        }
         //////////PAGAMENTO//////////////
         let totalpagamento = 0;
 
