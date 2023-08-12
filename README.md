@@ -1,3 +1,32 @@
+# MINHA EXPERIÊNCIA PARTICIPANDO DO DESAFIO DB
+O desafio foi muito enriquecedor para meu conhecimento como estudante de programação, tive a sensação real
+de como é trabalhar com o desenvolvimento de uma aplicação, analisando meu código, resolvendo bugs, e fazendo commit
+diretamente do VisualCode através do GIT push.
+# MAIOR DIFICULDADE
+A parte do desafio que mais fiquei presa foi nas regras:
+
+- "É possível pedir mais de um item extra sem precisar de mais de um principal." 
+- "Caso item extra seja informado num pedido que não tenha o respectivo item principal, apresentar mensagem "Item extra não pode ser pedido sem o principal".
+
+Um hora todos itens eram considerados inválidos, outra todos itens eram considerados válidos, e por fim o código estava
+descontando o valor dos itens extras do total a pagar...
+
+Precisei parar descansar, e voltar a estudar, e 12 horas depois encontrei a solução! 
+
+"Se tiver
+pedidos['queijo'] e não tiver pedidos['sanduiche']
+e se tiver
+pedidos['chantily'] e não tiver pedidos['cafe']
+A mensagem "Item extra não pode ser pedido sem o principal" é retornada."
+
+Caso contrário o calculo prossegue.
+
+Coloquei a solução dentro de uma estrutura Switch para que o código ficasse mais simples e legivel
+sem muitos "IFs" e Bingo desafio concluido!!
+
+
+
+# INSTRUÇÕES DO DESAFIO:
 # CAIXA DA LANCHONETE
 
 ## COMO BAIXAR O CÓDIGO E SUBMETER MINHA SOLUÇÃO?
