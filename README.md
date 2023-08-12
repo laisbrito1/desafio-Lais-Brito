@@ -11,7 +11,7 @@ As partes do desafio que mais fiquei presa foram nas regras:
 Um hora todos itens eram considerados inválidos, outra todos itens eram considerados válidos, e por fim o código estava
 descontando o valor dos itens extras do total a pagar...
 
-Precisei parar descansar, e voltar a estudar, e 12 horas depois encontrei a solução! 
+Precisei parar descansar, estudar, e 12 horas depois encontrei a solução! 
 
 "Se tiver
 pedidos['queijo'] e não tiver pedidos['sanduiche']
