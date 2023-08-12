@@ -42,8 +42,7 @@ class CaixaDaLanchonete {
         }
         /////// REGRA EXTRAS////
         switch (true) {    
-            case pedidos['queijo'] && !pedidos['sanduiche']:
-            case pedidos['chantily']&& !pedidos['cafe']:
+            case pedidos['queijo'] && !pedidos['sanduiche'] || pedidos['chantily']&& !pedidos['cafe']:
                 return "Item extra não pode ser pedido sem o principal";
             default:
                 total = Object.keys(pedidos).reduce((acc, tipo) => {
