@@ -18,7 +18,10 @@ class CaixaDaLanchonete {
         if (itens.length === 0) {
             return "Não há itens no carrinho de compra!";
         }
-    }}
+
+    }
+}
+
 export { CaixaDaLanchonete };
 
 
