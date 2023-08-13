@@ -3,7 +3,7 @@ O desafio foi muito enriquecedor para meu conhecimento como estudante de program
 de como é trabalhar com o desenvolvimento de uma aplicação, analisando meu código, resolvendo bugs, e fazendo commit
 diretamente do VisualCode através do GIT push.
 # MAIOR DIFICULDADE
-A parte do desafio que mais fiquei presa foi nas regras:
+As partes do desafio que mais fiquei presa foram nas regras:
 
 - "É possível pedir mais de um item extra sem precisar de mais de um principal." 
 - "Caso item extra seja informado num pedido que não tenha o respectivo item principal, apresentar mensagem "Item extra não pode ser pedido sem o principal".
@@ -11,7 +11,7 @@ A parte do desafio que mais fiquei presa foi nas regras:
 Um hora todos itens eram considerados inválidos, outra todos itens eram considerados válidos, e por fim o código estava
 descontando o valor dos itens extras do total a pagar...
 
-Precisei parar descansar, e voltar a estudar, e 12 horas depois encontrei a solução! 
+Precisei parar descansar, estudar, e algumas horas depois encontrei a solução! 
 
 "Se tiver
 pedidos['queijo'] e não tiver pedidos['sanduiche']
