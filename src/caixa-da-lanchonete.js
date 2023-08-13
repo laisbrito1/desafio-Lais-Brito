@@ -55,7 +55,7 @@ class CaixaDaLanchonete {
                 break;
         }
         //////////PAGAMENTO//////////////
-        let totalpagamento = 0;
+        let totalpagamento = 0; //valor após os acrescimos e descontos
 
         switch (metodoDePagamento) {
             case 'dinheiro':
