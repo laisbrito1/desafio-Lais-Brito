@@ -21,8 +21,7 @@ A mensagem "Item extra não pode ser pedido sem o principal" é retornada."
 
 Caso contrário o calculo prossegue.
 
-Coloquei a solução dentro de uma estrutura Switch para que o código ficasse mais simples e legivel
-sem muitos "IFs" e Bingo desafio concluido!!
+Desafio concluido!!
 
 
 
